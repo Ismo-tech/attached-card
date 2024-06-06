@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    background-color: blue;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.flexone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flextwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.white{
+    color: white;
+}
+#overallWrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: ;
+    padding: 0px 5%;
+}
+#firstWrapper{
+    width: 100%;
+    margin: 0%;
+    padding: 20% 40%;
+    border-radius: 40px;
+}
+#wrapers{
+    border-radius: 1%;
+    border: 2px solid white;
+    height: 385px;
+}
+#firstHeading{
+    background-color: rgb(34, 34, 67);
+    height: 120px;
+}
+#middleHeading{
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+#ismo{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+#ism{
+    font-weight: 20px;
+    font-weight: bolder;
+   
+}
+#bottomDiv{
+    border-top: 1px solid black;
+    margin-top: 7%;
+    padding: 0px 10%;
+    padding-top: 7%;
+}
+#firstfollower{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.folNum{
+    font-size: 20px;
+    font-weight: bold;
+}
+.folWord{
+    font-size: 10px;
+    padding-bottom: 3%;
+}
